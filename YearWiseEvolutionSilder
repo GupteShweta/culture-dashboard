@@ -1,0 +1,8 @@
+<input
+type="range"
+min="2000"
+max="2025"
+step="1"
+value={year}
+onChange={(e)=>setYear(e.target.value)}
+/>
