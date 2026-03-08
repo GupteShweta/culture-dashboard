@@ -1,0 +1,13 @@
+import { Radar } from "react-chartjs-2";
+
+const data = {
+labels:["PDI","IDV","MAS","UAI","LTO","IVR"],
+datasets:[
+{
+label:"India",
+data:[77,48,56,40,51,26]
+}
+]
+};
+
+<Radar data={data} />
